@@ -1,0 +1,51 @@
+body{
+    background-image: linear-gradient(to right top, #005751, #005f65, #006579, #006b8d, #066f9f, #287cad, #3d89bb, #4f96ca, #5db1d8, #77cce4, #98e6ef, #bdfffb);
+    background-size:cover;
+    background-position: center;
+}
+#h1heading,#h2heading{
+font-size: 25px;
+box-shadow: 5px 5px 18px #EC53FF;
+width: 50%;
+padding: 10px;
+border-radius: 5px;
+}
+#model_is_trained_on{
+    float:none;
+    font-size: 20px;
+    margin-top: 10px;
+    padding: 10px;
+    width: 70%;
+    box-shadow: 5px 5px 18px greenyellow;
+}
+#ItemsDiv{
+    padding: 10px;
+}
+
+#results{
+    font-size: 20px;
+    background-color:#FF5B87;
+    box-shadow: 5px 18px 18px gold;
+    width: 50%;
+    border-radius: 5px;
+    padding: 10px;
+    color: gold;
+    font-weight: bold;
+}
+
+#footer{
+    bottom:0;
+    background-color:fuchsia;
+    text-align: center;
+    position: fixed;
+    width:100%;
+    line-height:3;
+}
+canvas{
+    background-color: honeydew;
+    margin-top: 230px;
+    border-style: double;
+    border-width: 10px;
+    box-shadow: 5px 5px 18px honeydew;
+
+}
